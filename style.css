@@ -1,3 +1,6 @@
+header{
+    padding-bottom:1.4em;
+}
 nav{
     background-color: darkgrey;
     text-align:center;
@@ -7,15 +10,23 @@ nav{
 
 ul{  
     display: inline;
+    list-style-type: none;
 }
-
-li{
+#logo{
     float:left;
+    padding-left: 13em;
+    padding-bottom: 3em;
+    list-style-type: none;
+}
+.item{
+    float:left;
+    text-align: center;
+    padding-left: 7em;
     list-style-type: none;
 }
     
 .center{
-        margin-top:30px;
+        margin-top:8em;
         margin-left: 220px;
         text-align: center;
         display: block;   
